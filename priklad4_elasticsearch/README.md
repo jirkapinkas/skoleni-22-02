@@ -1,7 +1,6 @@
 # Spusteni:
 
-    kubectl apply -f elasticsearch.yml
-    kubectl apply -f kibana.yml
+    kubectl apply -f elasticsearch.yml -f kibana.yml
 
 # Jak ziskat heslo (Linux):
 
@@ -23,5 +22,4 @@ https://localhost:5601
 
 # Smazani:
 
-    kubectl delete -f elasticsearch.yml
-    kubectl delete -f kibana.yml
+    kubectl delete -f elasticsearch.yml -f kibana.yml
